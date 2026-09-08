@@ -1,0 +1,38 @@
+MAQUINAS = {
+    "Hunter H600": {
+        "codigo": "Hunter H600",
+        "tipo": "Aplicador de Bioinsumos",
+        "marca": "Orion",
+        "modelo": "Hunter H600",
+        "ano": 2024,
+        "horas": 0,
+        "proprietario": "Orion Tecnologia e Sistemas Agrícolas",
+        "localizacao": "Marília - SP",
+        "status": "Disponível",
+        "garantia": "2 anos",
+        "eficiencia_declarada": "99%",
+        "pressao_controlada": True,
+        "acionamento": "Mecânico/Eletrônico",
+        "codigo_finame": "03388775",
+        "plantadeiras_compativeis": [
+            "Baldan",
+            "CaseIH",
+            "CLK",
+            "Crucianelli",
+            "Fendt",
+            "Horsch",
+            "Jacto",
+            "John Deere",
+            "Jumil",
+            "KF",
+            "Kuhn",
+            "Massey Ferguson",
+            "New Holland",
+            "Planti Center",
+            "Stara",
+            "Tatu",
+            "Valtra",
+            "Vence Tudo"
+        ]
+    },
+}
