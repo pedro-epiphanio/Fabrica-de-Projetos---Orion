@@ -8,20 +8,20 @@ import sys
 janela = tk.Tk()
 
 janela.title("Orion - Machinfo")
-janela.geometry("1920x1080")
+janela.geometry("600x400")
 
 
 boas_vindas = tk.Label(
     janela,
     text="Bem-vindo!",
-    font=("Arial", 30)
+    font=("Arial", 20)
 ).place(relx=0.5, rely=0.3, anchor="center")
 
 
 o_que_fazer = tk.Label(
     janela,
     text="Selecione o arquivo com o QrCode da máquina desejada!",
-    font=("Arial", 20)
+    font=("Arial", 15)
 ).place(relx=0.5, rely=0.4, anchor="center")
 
 
@@ -66,13 +66,13 @@ botao = tk.Button(
     janela,
     text="Selecionar arquivo",
     command=clicar,
-    font=("Arial", 17)
+    font=("Arial", 12)
 ).place(
     relx=0.5,
     rely=0.55,
     anchor="center",
-    width=300,
-    height=100
+    width=200,
+    height=80
 )
 
 
