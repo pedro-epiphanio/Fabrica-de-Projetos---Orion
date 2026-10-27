@@ -1,7 +1,5 @@
 
-import webbrowser
-import threading
-import time
+import os
 
 from nicegui import ui
 from maquinas import MAQUINAS
@@ -114,34 +112,12 @@ def pagina_maquina(nome: str):
                     ).classes(
                          'text-lg mb-2'
                     )
-# ==========================================
-# ABERTURA AUTOMÁTICA DO NAVEGADOR
-# ==========================================
-#retirar todo o código abaixo ou comentar para ser hospedado em servidor
-def abrir_navegador():
 
-    time.sleep(2)
+port = int(os.environ.get('PORT', 8080))
 
-    url = (
-        'http://127.0.0.1:8080/'
-        'maquina/Hunter%20H600'
-    )
-
-    webbrowser.open(url)
-
-
-threading.Thread(
-    target=abrir_navegador,
-    daemon=True
-).start()
-#ate aqui
-
-# ==========================================
-# INICIA O SERVIDOR NICEGUI
-# ==========================================
 ui.run(
     host='0.0.0.0',
-    port=8080,
+    port=port,
     show=False,
     reload=False
 )
