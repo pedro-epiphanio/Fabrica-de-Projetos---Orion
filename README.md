@@ -8,6 +8,13 @@ O objetivo é criar um chatbot inteligente, capaz de fornecer informações téc
 
 ---
 
+## 🔗 Acessos ao Projeto
+
+- **Site da Orion:** https://orion-maquinas.onrender.com/
+- **Chatbot Inteligente:** https://orionchatbot.netlify.app/
+
+---
+
 ## 🎯 Sobre o Projeto
 
 O projeto consiste no desenvolvimento de um assistente virtual especializado nos equipamentos da Orion Bioinsumos.
